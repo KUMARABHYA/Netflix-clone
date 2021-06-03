@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movie_cate{
+    text-align: center;
+margin-top: 20px;
+}
+
+.movies_btn{
+    margin: 20px;
+    background-color: rgb(156, 58, 58);
+    padding: 10px;
+    width: 200px;
+}
+
+.movies_btn:hover{
+    margin: 20px;
+    background-color: rgb(78, 102, 71);
+}
+
+.item2{
+    margin: 40px;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 0px 2px 5px 2px  rgb(141, 138, 138);
+    background: black;
+
+}
+.item_two_img{
+    width: 210px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.item_two_btn{
+    text-align: center;
+    align-items: center;
+    margin-left: 58px;
+}
+
+.bollywood_area{
+    margin-top: -20px;
+}
+
+
+@media(max-width:768px){
+    .item2{
+margin-left: 3px;
+    }
+
+    .item_two_img{
+        margin-left: 15px;
+    }
+
+    .item_two_btn{
+        margin-left: 78px;
+        
+    }
+}
